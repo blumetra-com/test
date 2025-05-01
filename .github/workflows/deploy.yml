@@ -27,5 +27,5 @@ jobs:
             echo hi
             cd /home/ubuntu/code/BDOP
             pwd
-            pm2 start all
+            /home/ubuntu/.nvm/versions/node/v20.19.1/bin/pm2 stop all
           EOF
