@@ -45,4 +45,6 @@ jobs:
 
             # Restart pm2 processes, ensuring it's the full path for pm2
             /home/ubuntu/.nvm/versions/node/v20.19.1/bin/pm2 stop all
+            npm install
+            npm run build
           EOF
