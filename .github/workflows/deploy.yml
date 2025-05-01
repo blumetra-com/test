@@ -25,4 +25,6 @@ jobs:
             git pull origin main
             touch test.txt
             echo hi
+            cd /home/ubuntu/code/BDOP
+            pm2 restart all
           EOF
