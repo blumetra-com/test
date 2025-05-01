@@ -23,5 +23,6 @@ jobs:
           ssh -o StrictHostKeyChecking=no ubuntu@44.214.200.249 << 'EOF'
             cd /home/ubuntu/test
             git pull origin main
+            touch test.txt
             echo hi
           EOF
