@@ -26,5 +26,6 @@ jobs:
             touch test.txt
             echo hi
             cd /home/ubuntu/code/BDOP
-            pm2 restart all
+            pwd
+            pm2 start all
           EOF
